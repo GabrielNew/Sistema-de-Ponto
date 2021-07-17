@@ -1,13 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Em Construção</title>
-</head>
-<body>
-    <h1>Nossa página ainda está sendo criada!</h1>
-    <h3>Em breve estará disponível para os usuários! :D</h3>
-</body>
-</html>
+<?php
+    require("./core/Config.php");
+    require("./vendor/autoload.php"); 
+
+    use Core\ConfigController as Home;
+
+    $url = new Home();
+    $url->carregar();
+?>

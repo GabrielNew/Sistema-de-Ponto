@@ -1,0 +1,16 @@
+{
+    "description": "Projeto Controle Ponto",
+    "authors": [
+        {
+            "name": "Gabriel",
+            "email": "teste@teste.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core",
+            "Sts\\": "app/sts"
+        }
+    },
+    "require": {}
+}
