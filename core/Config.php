@@ -12,5 +12,5 @@ define('METODO', 'index');
 
 define('HOST', 'localhost');
 define('USER', 'root');
-define('PASSWORD', '123456789');
-define('DBNAME', 'testes');
+define('PASSWORD', '');
+define('DBNAME', '');
