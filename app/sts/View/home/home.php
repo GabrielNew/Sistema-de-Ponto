@@ -1,3 +1,4 @@
 <?php
 
-echo "View home";
+//echo "View home";
+print_r($this->dados);

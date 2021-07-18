@@ -80,5 +80,4 @@ class ConfigController
         $classeCarregar = new $classe;
         $classeCarregar->index();
     }
-
 }

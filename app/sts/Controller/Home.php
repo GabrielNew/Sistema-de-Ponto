@@ -10,10 +10,14 @@ if(!defined('URL'))
 
 class Home
 {
+    private $dados;
 
     public function index()
     {
-        $carregarView = new \Core\ConfigView("sts/View/home/home");
+        $home = new \Sts\Model\StsHome();
+        $this->dados = $home->index();
+        
+        $carregarView = new \Core\ConfigView("sts/View/home/home", $this->dados);
         $carregarView->renderizar();
     }
 
