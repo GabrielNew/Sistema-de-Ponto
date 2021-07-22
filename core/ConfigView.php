@@ -19,6 +19,7 @@ class ConfigView
         if(file_exists('app/'.$this->nome.".php"))
         {
             include('app/sts/View/include/cabecalho.php');
+            include('app/sts/View/include/menu.php');
             include('app/'.$this->nome.".php");
             include('app/sts/View/include/rodape.php');
         }
